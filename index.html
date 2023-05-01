@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <script src="./js/bootstrapJs/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" type="image/x-icon" href="/fooddel/image/manchurbg.avif" class="fevicon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>free food</title>
+</head>
+
+
+<!-- <style>
+    .navbar-nav li:nth-child(odd) .nav-link {
+        font-size: 24px;
+        color: rgb(96, 12, 252);
+
+    }
+</style> -->
+
+<body>
+    <nav class="navbar navbar-expand-lg customenav sticky-top  shadow-5-strong">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#">free <span class="pp">food</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">mainu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">since</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <form class="d-flex">
+            <div class="box" id="content">
+                <input class="form-control me-2 search1 " type="search" placeholder="Search" aria-label="Search">
+            </div>
+
+            <button class="btn" type="button" button id="toggle"><i class="bi bi-search"></i></button>
+            <button class="btn closeIcon" type="button" button id="closeBtn">X</button>
+        </form>
+    </nav>
+
+
+
+    <div class="container-fluid">
+        <div class="row colh">
+            <div class="col-md-12">
+                <img src="./image/restra.webp" class="img-fluid headimg" />
+
+                <div class="container">
+                    <div class="row justify-content-evenly">
+                        <div class="col-md-2">
+
+                        </div>
+                        <div class="col-md-6 abo text-white">
+
+                            <form class=" form-class py-5" id="formonclick">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text text-white">We'll never share your email with
+                                        anyone else.
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" onclick="login_hide()" class="btn btn-primary">login</button>
+                            </form>
+
+                        </div>
+
+
+                        <div class="col-md-2">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-12 btn-col">
+                        <button type="submit" onclick="show_btn()" class="btn-style">already a memeber ?</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- search btn -->
+    <div class="container mt-3">
+
+        <div class="row height d-flex justify-content-center align-items-center">
+
+            <div class="col-md-8">
+
+                <div class="search">
+                    <i class="fa fa-search"></i>
+                    <input type="text" class="form-control" placeholder="are you hungry? search a food">
+                    <button class="btn"><b>Search</b></button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- search btn close -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center py-3">
+                <h1 class=" mid">what we offer</h1>
+
+
+                <p class="offerfood">
+                    We are pleased to offer you our Indian food catering service for your upcoming event. We
+                    specialize
+                    in authentic and delicious dishes from various regions of India, such as tandoori, biryani,
+                    curry,
+                    naan, and more. We can customize the menu according to your preferences and budget. We also
+                    provide
+                    vegetarian and vegan options for your guests.
+
+                    We have been in the catering business for over 10 years and have served many satisfied
+                    customers. We
+                    use fresh and high-quality ingredients and follow strict hygiene standards. We can deliver the
+                    food
+                    to your venue or set up a buffet station for your convenience.
+
+                    If you are interested in our service, please contact us at 555-1234 or email us at
+                    indianfoodcatering@example.com. We would be happy to discuss the details and provide you with a
+                    free
+                    quote.
+
+                    Thank you for your consideration and we hope to hear from you soon.
+
+                    Sincerely,
+                    Indian Food Catering Team</p>
+                <div class="div my-5">
+                    <a href="#" class="story">check out our story</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- our popular food -->
+
+    <div class="container-fluid">
+        <div class="col-md-12 text-center">
+            <h1 class="ourser">our most orderd food</h1>
+        </div>
+        <div class="row text-center py-3 padding-row">
+            <div class="col-md-4 pop-rad pb-3">
+                <h3 class="ser-1 my-3">noodels</h3>
+                <img src="./image/noodels.jpg" alt="loding error" class="img-fluid  pop-mainu" />
+                <p class="text-pop">
+                <p class="text-pop">
+                    Dear Customer,
+                    <br />
+                    We regret to inform you that we are currently out of stock of noodels.<br /> We apologize for
+                    any
+                    inconvenience this may cause you. We are working hard to replenish our inventory as soon as
+                    possible. <br />We appreciate your patience and understanding.
+                    Thank you for choosing Noodels Inc.
+                    Sincerely,
+                    <br />
+                    The free food team
+                </p>
+                <button class="check">notify me</button></p>
+
+            </div>
+
+
+            <div class="col-md-4 pop-rad pb-3">
+                <h3 class="ser-1 my-3">samosa</h3>
+                <img src="./image/R.jpg" alt="loding error" class="img-fluid pop-mainu" />
+                <p class="text-pop">
+                    Dear Customer,
+                    <br />
+                    Thank you for your order of 50 samosas from our catering service. We are delighted to serve you
+                    and
+                    your guests with our delicious and authentic Indian snacks.
+                    Your order will be ready for pickup on Monday, April 10th at 12:00 pm from our store at 123 Main
+                    Street. Please bring your receipt and a valid ID to collect your order.
+                    We hope you enjoy our samosas and we look forward to serving you again soon.
+                    <br>
+                    Sincerely,
+                    <br>
+                    team free food,,
+                </p>
+                <button class="check">add cart</button>
+
+
+            </div>
+
+
+            <div class="col-md-4 pop-rad">
+                <h3 class="ser-1 my-3">ice-cream</h3>
+                <img src="./image/ice-cream.webp" class="img-fluid iceimg" alt="loding error" />
+                <p class="text-pop">Dear Customer,
+                    <br />
+                    Thank you for choosing our ice cream shop. We are happy to inform you that your order has been
+                    processed and shipped. You can expect to receive your delicious ice cream within two business
+                    days.
+                    Please let us know if you have any questions or concerns. We appreciate your feedback and hope
+                    you
+                    enjoy our products.
+                    <br />
+                    Sincerely,
+                    The Ice Cream Team
+                </p>
+                <button class="check">add cart</button>
+            </div>
+        </div>
+
+        <!-- orderd category -->
+
+        <div class="row our-row my-3">
+            <div class="div catbg my-3">
+                <h1 class="cat-order text-center">food category</h1>
+            </div>
+            <div class="col-md-4 text-center needbg">
+                <div class="need-h1bg">
+                    <h1 class="need text-center">breakfast</h1>
+                </div>
+                <img src="./image/breakfast.jpg" alt="loding error" class="img-flud cat-img" />
+                <div class="bg-dinner">
+                    <h3>free food quote</h3>
+                    <p>
+                        Breakfast is the most important meal of the day, but sometimes you don't have time to cook
+                        or go
+                        out
+                        to a restaurant. That's why online ordering is a convenient and easy option for busy
+                        mornings.
+                        Here
+                        are some tips on how to place a breakfast order online and enjoy a delicious meal at home or
+                        in
+                        the
+                    </p>
+
+                    <div class="btn py-3">
+                        <button class="check">add cart</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4 needbg text-center">
+                <div class="need-h1bg">
+                    <h1 class="need ">lunch</h1>
+                </div>
+                <img src="./image/rajmachawal.jpg" alt="loding error" class="img-flud cat-img" />
+                <div class="bg-dinner">
+                    <h3>free food quote</h3>
+                    <p>Lunch is an important meal that provides energy and nutrients for the rest of the day. A
+                        balanced lunch should include a variety of foods from different food groups, such as whole
+                        grains,
+                        lean protein, fruits, vegetables, and low-fat dairy. Some examples of healthy lunch options
+                        are:
+                    </p>
+                    <div class="btn py-3">
+                        <button class="check">add cart</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4 needbg text-center">
+                <div class="need-h1bg">
+                    <h1 class="need ">dinner</h1>
+                </div>
+                <img src="./image/dinnerthali.jpg" alt="loding error" class="img-flud cat-img" />
+
+                <div class="bg-dinner">
+                    <h3>free food quote</h3>
+                    <p>
+                        Dinner is an important meal of the day that provides energy and nutrients for the body. It
+                        can
+                        also
+                        be a time to relax and enjoy the company of family or friends. Some tips for a healthy and
+                        balanced
+                        dinner are:- Limit saturated fat, salt and added sugar in your dishes and drinks.
+                    </p>
+                    <div class="btn py-3">
+                        <button class="check">add cart</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- gallary headung start -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="divfood-gal text-center">
+                    <h1 class="gal-h1">our food galary</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- our food gallary -->
+
+        <div class="row py-3 our-fod-gal justify-content-evenly ">
+
+            <div class="col-md-2 text-center gallery-food ">
+                <img src="./image/burger.jpg" alt="loding error" class="img-fluid foodimg-gal" />
+                <h4 class="mt-3 yum-bur">yum burger</h4>
+
+            </div>
+            <div class="col-md-2 text-center gallery-food">
+                <img src="./image/Gol_Gappa_Chaat.jpg" alt="loding error" class="img-fluid foodimg-gal" />
+                <h4 class="mt-3  yum-bur">golgappe</h4>
+
+            </div>
+            <div class="col-md-2 text-center gallery-food">
+                <img src="./image/dhokla.jpg" alt="loding error" class="img-fluid foodimg-gal" />
+                <h4 class="mt-3  yum-bur">dhokala</h4>
+
+            </div>
+            <div class="col-md-2 text-center gallery-food">
+                <img src="./image/chana-chaat-with-yogurt-1024x1024.jpg" alt="loding error"
+                    class="img-fluid foodimg-gal" />
+                <h4 class="mt-3  yum-bur">chaat</h4>
+            </div>
+            <div class="col-md-2 text-center gallery-food">
+                <img src="./image/macroni1.webp" alt="loding error" class="img-fluid foodimg-gal" />
+                <h4 class="mt-3 yum-bur">macroni</h4>
+
+
+            </div>
+            <!-- 2nd galary -->
+            <!-- 
+            <div class="row mt-3 our-fod-gal justify-content-evenly ">
+
+
+
+
+
+
+
+            </div> -->
+
+        </div>
+
+        <!-- our 2nd gallary -->
+        <div class="row mb-3 our-fod-gal justify-content-evenly">
+
+
+            <div class="col-md-2 text-center gallery-food ">
+                <img src="./image/cofffe.jpg" alt="loding error" class="img-fluid foodimg-gal" />
+                <h4 class="mt-3 yum-bur">cofffe</h4>
+
+            </div>
+
+            <div class="col-md-2 text-center gallery-food">
+                <img src="./image/idli.jpg" alt="loding error" class="img-fluid foodimg-gal" />
+                <h4 class="mt-3  yum-bur">idali</h4>
+
+            </div>
+            <div class="col-md-2 text-center gallery-food">
+                <img src="./image/palak paneer.jpg" alt="loding error" class="img-fluid foodimg-gal" />
+                <h4 class="mt-3  yum-bur">palak paneer</h4>
+
+            </div>
+            <div class="col-md-2 text-center gallery-food">
+                <img src="./image/paneer.jpg" alt="loding error" class="img-fluid foodimg-gal" />
+                <h4 class="mt-3  yum-bur">kadhai paneer</h4>
+            </div>
+            <div class="col-md-2 text-center gallery-food">
+                <img src="./image/plain-dosa.jpg" alt="loding error" class="img-fluid foodimg-gal" />
+                <h4 class="mt-3 yum-bur">dosa</h4>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- customer reviews -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">number</th>
+                            <th scope="col">name</th>
+                            <th scope="col">subject</th>
+                            <th scope="col">roll no</th>
+                            <th scope="col">button</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td class="name">subham</td>
+                            <td>hindi</td>
+                            <td>1234567</td>
+                            <td><button type="button" id="item">submit</button> <button>submit</button></td>
+                  
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>riya</td>
+                            <td>english</td>
+                            <td>1234567</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">aniket</td>
+                            <td>12345678</td>
+                          
+                        </tr>
+                    </tbody>
+                  
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+        <h1 class="text-center pb-3 text11">our customer reviews</h1>
+
+        <div class="row g-2">
+            <div class="col-md-4">
+                <div class="card p-3 text-center px-4">
+                    <div class="user-image">
+                        <img src="https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+                            class="rounded-circle anisha">
+                    </div>
+                    <div class="user-content">
+                        <h5 class="mb-0">himanshi</h5>
+                        <span>kanpur</span>
+                        <p> This spot gives extraordinary service and yummy meals. One of my favourite restaurants
+                            around town. The meals served rapidly and the rates were reasonable. Highly recommended.</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card p-3 text-center px-4">
+
+                    <div class="user-image">
+
+                        <img src="https://images.unsplash.com/photo-1602233158242-3ba0ac4d2167?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80"
+                            class="rounded-circle anisha">
+
+                    </div>
+
+                    <div class="user-content">
+
+                        <h5 class="mb-0">anisha</h5>
+                        <span>kanpur</span>
+                        <p> This spot gives extraordinary service and yummy meals. One of my favourite restaurants
+                            around town. The meals served rapidly and the rates were reasonable. Highly recommended.</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card p-3 text-center px-4">
+
+                    <div class="user-image">
+
+                        <img src="https://images.unsplash.com/photo-1597983073493-88cd35cf93b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            class="rounded-circle anisha">
+
+
+                    </div>
+
+                    <div class="user-content">
+
+                        <h5 class="mb-0">dikhsa</h5>
+                        <span>lucknow</span>
+                        <p> This spot gives extraordinary service and yummy meals. One of my favourite restaurants
+                            around town. The meals served rapidly and the rates were reasonable. Highly recommended..
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <!-- about ourrestaruantes -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center py-3">
+                <h1 class="res text-center"> about our restaruantes </h1>
+                <p class="about-our">
+                    First of all, we are proud to offer a wide range of quality items at affordable prices. Whether you
+                    are looking for
+                    clothing, accessories, electronics, books, or anything else, you can find it in our shop. We have
+                    something for
+                    everyone, from kids to adults, from casual to formal, from trendy to classic.
+
+                    Secondly, we are committed to providing excellent customer service and satisfaction. We value your
+                    feedback and
+                    suggestions, and we are always ready to answer your questions and solve your problems. You can
+                    contact us by phone,
+                    email, or chat anytime you need. We also offer free shipping and returns on all orders over $50, as
+                    well as a
+                    loyalty program that rewards you with points and discounts.
+
+                    Thirdly, we are constantly updating our inventory and adding new products and deals. You can check
+                    our website or
+                    follow us on social media to stay informed about our latest arrivals and promotions. You can also
+                    subscribe to our
+                    newsletter to receive exclusive offers and coupons. We also host regular giveaways and contests
+                    where you can win
+                    amazing prizes.
+
+                    We hope you enjoy shopping with us and find what you are looking for. Thank you for choosing our
+                    shop and supporting
+                    our business. We appreciate your trust and loyalty. Please feel free to share your thoughts and
+                    experiences with us
+                    in the comments section below or on our social media pages. We would love to hear from you</p>
+            </div>
+        </div>
+
+
+
+        <hr>
+
+
+        <!-- footer -->
+
+        <div class="row d-black">
+            <div class="col-md-9">
+                <div class="row my-5 pb-3">
+                    <div class="col-md-4 text-center text-white">
+                        <h6>use full links</h6>
+                        <ul type="none">
+                            <li><a class="o-none" href="#">our restaurant</a></li>
+                            <li><a href="#" class="o-none">our restaurant</a></li>
+                            <li><a href="#" class="o-none">our restaurant</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-md-4 text-center text-white">
+                        <h4> our partners</h4>
+                        <ul type="none">
+                            <li><a class="o-none" href="#">yoda</a></li>
+                            <li><a href="#" class="o-none">sushon</a></li>
+                            <li><a href="#" class="o-none">quink</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 text-center text-white">
+                        <h4>restaurant owner</h4>
+                        <p class="group">wellwox d group</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-3 ">
+                <div class="top py-5">
+                    <span class="text-white">follow us</span>
+                    <a href="#"><img src="./image/instagram.png" alt="error" class="img-fluid insta" /></a>
+                    <a href="#"><img src="./image/1534043161Twitterpng.png" alt="error" class="img-fluid insta" /></a>
+                    <p class="text-white"> 2022-2023</p>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="cap text-center">“foodpay is owned & managed by "food Private Limited" (formerly known as
+                        foodadda
+                        India Private Limited) and is not related, linked or interconnected in whatsoever manner or
+                        nature, to “FOODADDA.COM” which is a real estate services business operated by “Redstone
+                        Consultancy Services Private Limited”</h4>
+
+                    <h4 class="cap text-center">website created by codes.arv</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+<script>
+    let elToggleaaa = document.getElementById("item");
+    elToggleaaa.addEventListener("click", ()=> {
+
+    var row = this.closest("tr");    // Find the row
+    var text = row.find(".name").text(); // Find the text
+    
+    // Let's test it out
+    alert(text);
+});
+</script>
+
+
+
+
+
+
+
+
+    <script>
+
+        let elToggle = document.getElementById("toggle");
+        var delelement = document.getElementById("closeBtn")
+        elToggle.addEventListener("click", () => {
+            var element = document.getElementById("content");
+            element.classList.add("ishidden");
+            delelement.classList.add("delBlock")
+            elToggle.classList.add("SearchBlock")
+        });
+
+        delelement.addEventListener("click", () => {
+            var element = document.getElementById("content");
+            element.classList.remove("ishidden");
+            delelement.classList.remove("delBlock")
+            elToggle.classList.remove("SearchBlock")
+        });
+    </script>
+
+
+
+
+    <script>
+        function show_btn() {
+            document.getElementById("formonclick").style.display = "block";
+        }
+        function login_hide() {
+            document.getElementById("formonclick").style.display = "none";
+        }
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
